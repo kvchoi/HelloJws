@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<replace>
+    <!--整个文件做全量替换，如没有，可以不配置-->
+    <wholes>
+        <!--srcPath:源配置文件；dstPath:待替换的配置文件;
+            说明:
+            srcPath:如不配置或为空，则忽略该配置。如果该路径指向的是一个目录，将会进行递归替换，但前提是dstPath也是个目录。
+            dstPath:如不配置或为空，则取srcPath -->
+        <!-- 
+                <item srcPath="conf/define.conf"  dstPath="conf/define.conf"/>
+            -->
+    </wholes>
+    <!--所有路径都是相对路径，相对于应用程序根目录-->
+    <!--针对key=value类型的properties配置文件-->
+    <properties>
+        <!--srcPath:源配置文件；dstPath:待替换的配置文件;
+                                            说明:
+                    srcPath:如不配置或为空，则忽略该配置
+                    dstPath:如不配置或为空，则取srcPath
+                                            子节点说明
+                    src:对应的原key值;dst:替换至目标key值
+                                            说明：
+                    src:如果不配置或为空，则忽略该配置项
+                    dst:如果不配置或为空，则取src
+               -->
+        <!--
+            <item srcPath="conf/define.conf" dstPath="conf/define.conf">
+                <key src="account.url" dst="account.url"/>
+            </item>
+            -->
+    </properties>
+    <!--针对xml类型的配置文件-->
+    <xmls>
+        <!--srcPath:源配置文件；dstPath:待替换的配置文件;
+                                        说明:
+                srcPath:如不配置或为空，则忽略该配置
+                dstPath:如不配置或为空，则取srcPath 
+                                        子节点说明：
+                key:对应xml中节点路径dom4j的xPath表示，[]为对应的节点属性信息，例如client[@name='client0']，表示
+                                                    对应client节点的属性为:name='client0'节点
+                                                    说明：
+                src:如果不配置或为空，则忽略该配置项
+                dst:如果不配置或为空，则取srcNode
+                                        如果对应的src/dst非叶子节点，则直接做子结构替换
+            -->
+        <!--
+            <item srcPath="conf/cache-server.xml" dstPath="conf/cache-server.xml">
+                <key src="/memcached/client[@name='client0']/servers" dst="/memcached/client[@name='client0']/servers" />
+            </item>
+            -->
+    </xmls>
+</replace>

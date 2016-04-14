@@ -1,0 +1,759 @@
+[2015-12-09 17:29:05] ERROR ~ 
+
+@6ocieemgd
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:24)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 17:29:12] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:30:01] ERROR ~ 
+
+@6ocieemge
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:07] ERROR ~ 
+
+@6ocieemgf
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:11] ERROR ~ 
+
+@6ocieemgg
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:18] ERROR ~ 
+
+@6ocieemgh
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:29] ERROR ~ 
+
+@6ocieemgi
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:40] ERROR ~ 
+
+@6ocieemgj
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:50] ERROR ~ 
+
+@6ocieemgk
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:30:51] ERROR ~ 
+
+@6ocieemgl
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:31:20] ERROR ~ 
+
+@6ociemf0g
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:24)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 17:31:26] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:32:15] ERROR ~ 
+
+@6ociephkc
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 17:32:22] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:32:35] ERROR ~ 
+
+@6ociephkd
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:32:37] ERROR ~ 
+
+@6ociephke
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:33:32] ERROR ~ 
+
+@6ocif41om
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 17:33:32] ERROR ~ 
+
+@6ocif41ol
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:33:33] ERROR ~ 
+
+@6ocif41on
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:33:40] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:33:43] ERROR ~ 
+
+@6ocif41oo
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:34:34] ERROR ~ 
+
+@6ocif7fab
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 17:34:42] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:34:45] ERROR ~ 
+
+@6ocif7fac
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 17:35:29] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:35:39] ERROR ~ 500
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.index(Application.java:29)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2015-12-09 17:36:11] ERROR ~ 500
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.index(Application.java:29)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2015-12-09 17:36:22] ERROR ~ 500
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.index(Application.java:29)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2015-12-09 17:36:59] ERROR ~ 500
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.List
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:18)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.index(Application.java:29)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2015-12-09 17:38:42] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:39:15] ERROR ~ 500
+java.lang.NullPointerException
+	at extend.logback.logging.AbstractLoggingConfiguration.<init>(AbstractLoggingConfiguration.java:15)
+	at extend.logback.logging.config.ConsoleLoggingConfiguration.<init>(ConsoleLoggingConfiguration.java:10)
+	at extend.logback.logging.config.LoggingConfigurationFactory.createAppenderConfiguration(LoggingConfigurationFactory.java:46)
+	at extend.logback.logging.config.LoggingConfigurationFactory.<init>(LoggingConfigurationFactory.java:20)
+	at extend.logback.logging.config.HttpLoggingConfiguration.<init>(HttpLoggingConfiguration.java:12)
+	at extend.logback.logging.YamlConfiguration.initHttpStatisticsLogging(YamlConfiguration.java:45)
+	at extend.logback.logging.YamlConfiguration.initLogging(YamlConfiguration.java:37)
+	at extend.logback.logging.YamlConfiguration.init(YamlConfiguration.java:33)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:23)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.index(Application.java:29)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2015-12-09 17:42:11] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 17:49:07] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:14:13] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:14:18] ERROR ~ 
+
+@6ocikd645
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.IllegalStateException: value is absent
+	at com.google.common.base.Optional$Absent.get(Optional.java:219)
+	at extend.logback.logging.logback.LogbackFactory.buildFileAppender(LogbackFactory.java:50)
+	at extend.logback.logging.logback.LogbackFactory.buildAppender(LogbackFactory.java:111)
+	at extend.logback.logging.logback.LogbackFactory.buildAppenders(LogbackFactory.java:101)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getLogger(AsyncStatisticsLoggerFactory.java:49)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 18:14:30] ERROR ~ 
+
+@6ocikd646
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 18:15:10] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:15:34] ERROR ~ 
+
+@6ocikhf8o
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.IllegalStateException: value is absent
+	at com.google.common.base.Optional$Absent.get(Optional.java:219)
+	at extend.logback.logging.logback.LogbackFactory.buildFileAppender(LogbackFactory.java:50)
+	at extend.logback.logging.logback.LogbackFactory.buildAppender(LogbackFactory.java:111)
+	at extend.logback.logging.logback.LogbackFactory.buildAppenders(LogbackFactory.java:101)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getLogger(AsyncStatisticsLoggerFactory.java:49)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 18:16:56] ERROR ~ 
+
+@6ocikm67m
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: while scanning for the next token
+found character %'%' that cannot start any token
+ in "<reader>", line 7, column 41:
+     ...                     logFormat : %msg
+                                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:592)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:204)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:22)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 18:16:59] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:18:38] ERROR ~ 
+
+@6ocil20l2
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: while scanning for the next token
+found character %'%' that cannot start any token
+ in "<reader>", line 7, column 41:
+     ...                     logFormat : %msg
+                                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:592)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:204)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:22)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 18:18:38] ERROR ~ 
+
+@6ocil20l3
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 18:18:39] ERROR ~ 
+
+@6ocil20l4
+Internal Server Error (500) for request GET /
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.Application
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.Application
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2015-12-09 18:18:45] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:19:25] ERROR ~ 
+
+@6ocil4i3f
+Internal Server Error (500) for request GET /
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: while scanning for the next token
+found character %'%' that cannot start any token
+ in "<reader>", line 7, column 41:
+     ...                     logFormat : %msg
+                                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:592)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:204)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:158)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at extend.logback.logging.YamlConfiguration.<init>(YamlConfiguration.java:22)
+	at extend.logback.logging.AsyncStatisticsLoggerFactory.getInstance(AsyncStatisticsLoggerFactory.java:29)
+	at controllers.Application.<clinit>(Application.java:18)
+	... 7 more
+[2015-12-09 18:19:31] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:20:11] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:23:04] ERROR ~ Could not bind on port 9020
+[2015-12-09 18:23:37] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:43:16] ERROR ~ Failed to auto configure default logger context
+[2015-12-09 18:44:48] ERROR ~ Failed to auto configure default logger context

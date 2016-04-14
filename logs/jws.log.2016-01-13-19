@@ -1,0 +1,5 @@
+[2016-01-13 19:46:34] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-13 19:46:35] WARN ~ You're running JWS in DEV mode
+[2016-01-13 19:57:55] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-13 19:57:56] WARN ~ You're running JWS in DEV mode
+[2016-01-13 19:58:22] ERROR ~ Failed to auto configure default logger context

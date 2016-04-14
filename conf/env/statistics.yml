@@ -1,0 +1,14 @@
+###Structure通过空格来展示。Sequence里的项用"-"来代表，Map里的键值对用":"分隔
+http:
+    statisticsLog:
+                 appenders:
+#                          - type : console
+#                            timeZone : 
+#                            logFormat : 
+                          - type : file
+                            currentLogFilename : D:/workspace6/HelloJws/logs/logback2/access.log
+                            archive : true
+                            archivedLogFilenamePattern : D:/workspace6/HelloJws/logs/logback2/access.log.%d{yyyy-MM-dd-HH}
+                            archivedFileCount : 100 
+                            timeZone : 
+                            logFormat : 

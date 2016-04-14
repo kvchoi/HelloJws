@@ -1,0 +1,14 @@
+[2016-01-14 10:03:58] ERROR ~ 
+
+@6omi2fp7b
+StoreDetailController.detail action not found
+
+Action not found
+Action StoreDetailController.detail could not be found. Error raised is Controller controllers.StoreDetailController not found
+
+jws.exceptions.ActionNotFoundException: Action StoreDetailController.detail not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.StoreDetailController not found
+	... 3 more

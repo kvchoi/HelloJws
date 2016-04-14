@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+    <!--向新应用配置文件中新增配置项
+    [注意]：该配置依赖replace.xml中的全量复制文件，其应用场景是：
+    1）将老版本中某个配置文件全量拷贝至新版本对应的配置文件中；
+    2）在新版本的配置文件中添加指定的值
+    -->
+    <!--针对key=value类型的properties配置文件-->
+    <properties>
+        <!--path:待修改的配置文件;
+                                说明:path:如不配置或为空，则忽略该配置 
+                                子节点说明：
+                                使用宏变量，做字符串字面值替换，其中Message_URL对应至macro.properties中的值
+                    [说明]
+                    name:如不配置或空，则忽略该配置；
+                    value：该值统一使用${}作为宏描述，其对应的值为macro.properties中的key，
+                                        如果对应的key不存在，则异常退出
+                    tip: 升级准备阶段，对需要根据实际运行环境配置的信息，需要提示用户配置，此处是提示信息
+                    example：仅供开发人员编写该宏对应的示例，例如在开发阶段，可以将其填写为测试环境的配置信息，最后统一在
+                            macro.properties中修改对应的宏值，该配置可忽略
+                            
+                            【重要】macro.properties文件中的值由运维人员根据线上具体情况填写。
+            -->
+        <!--
+            <item path="conf/app.properties">
+                <key name="msg.url" value="${Message_URL}" tip="Please input message url" example=""/>
+            </item>
+            -->
+    </properties>
+    
+    <!-- 目前不支持对xml文件添加配置项 -->
+</add>

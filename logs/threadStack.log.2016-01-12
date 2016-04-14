@@ -1,0 +1,220 @@
+[2016-01-12 16:53:58] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(26)
+controllers.Application.index(line:22);
+
+[2016-01-12 16:56:18] ~ thread=(jws-thread-16)state=(RUNNABLE)autoTag=(33)
+jws.vfs.VirtualFile.search(line:214);
+jws.Jws.getVirtualFile(line:1151);
+jws.i18n.MessagesPlugin.detectChange(line:76);
+jws.plugins.PluginCollection.detectChange(line:374);
+jws.Jws.detectChanges(line:993);
+jws.Invoker$Invocation.init(line:239);
+jws.server.JwsHandler$NettyInvocation.init(line:285);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:370);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2016-01-12 16:56:38] ~ thread=(jws-thread-16)state=(RUNNABLE)autoTag=(34)
+jws.vfs.VirtualFile.child(line:154);
+jws.vfs.VirtualFile.search(line:215);
+jws.Jws.getVirtualFile(line:1151);
+jws.i18n.MessagesPlugin.detectChange(line:76);
+jws.plugins.PluginCollection.detectChange(line:374);
+jws.Jws.detectChanges(line:993);
+jws.Invoker$Invocation.init(line:239);
+jws.server.JwsHandler$NettyInvocation.init(line:285);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:370);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2016-01-12 16:56:58] ~ thread=(jws-thread-16)state=(RUNNABLE)autoTag=(35)
+jws.i18n.MessagesPlugin.detectChange(line:81);
+jws.plugins.PluginCollection.detectChange(line:374);
+jws.Jws.detectChanges(line:993);
+jws.Invoker$Invocation.init(line:239);
+jws.server.JwsHandler$NettyInvocation.init(line:285);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:370);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2016-01-12 17:08:57] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(25)
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:00] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(26)
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:03] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(27)
+java.io.File.<init>(line:303);
+controllers.WechatSupportController.init(line:33);
+
+[2016-01-12 17:09:06] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(28)
+controllers.WechatSupportController.init(line:33);
+
+[2016-01-12 17:09:10] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(29)
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:13] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(30)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:31);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:16] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(31)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:31);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:19] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(32)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:31);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:22] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(33)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:25] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(34)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:36);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:28] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(35)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:36);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:31] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(36)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:37);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:34] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(37)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:37] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(38)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:40] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(39)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:09:43] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(40)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:10:38] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(4)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:41);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:10:41] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(5)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:43);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:10:44] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(6)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:43);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:10:47] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(7)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:43);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:10:50] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(8)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:43);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:11:46] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(21)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:12:06] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(22)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:44);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:12:26] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(23)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:39);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:32);
+controllers.WechatSupportController.init(line:32);
+
+[2016-01-12 17:23:59] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(1)
+controllers.WechatSupportController.init(line:41);
+
+[2016-01-12 17:24:02] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+controllers.WechatSupportController.init(line:41);
+
+[2016-01-12 17:25:16] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(21)
+controllers.WechatSupportController.interact(line:60);
+
+[2016-01-12 17:26:16] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(24)
+controllers.WechatSupportController.interact(line:60);
+
+[2016-01-12 17:45:33] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(11)
+controllers.WechatSupportController.interact(line:60);
+
+[2016-01-12 17:45:36] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(12)
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:39] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(13)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:42] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(14)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:45] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(15)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:48] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(16)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:51] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(17)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:54] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(18)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:45:57] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(19)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:46:00] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(20)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+
+[2016-01-12 17:46:20] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(21)
+io.github.elkan1788.mpsdk4j.core.WechatKernel.check(line:138);
+controllers.WechatSupportController.interact(line:61);
+

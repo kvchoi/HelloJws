@@ -1,0 +1,650 @@
+[2016-04-08 14:11:21] ERROR ~ 
+
+@6pkcmidlg
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.baidu.com
+
+Execution exception (In /app/controllers/ForwardController.java around line 25)
+RuntimeException occured : jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+
+jws.exceptions.JavaExecutionException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+	at jws.http.HTTP.GET(HTTP.java:73)
+	at controllers.ForwardController.to(ForwardController.java:25)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:213)
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:210)
+	at com.google.common.util.concurrent.Futures$MappingCheckedFuture.mapException(Futures.java:1613)
+	at com.google.common.util.concurrent.AbstractCheckedFuture.checkedGet(AbstractCheckedFuture.java:114)
+	at jws.http.HTTP.GET(HTTP.java:67)
+	... 7 more
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+	at com.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:297)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.abort(NettyAsyncHttpProvider.java:1326)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.channelClosed(NettyAsyncHttpProvider.java:1389)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelClosed(SimpleChannelUpstreamHandler.java:225)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.channelClosed(HttpContentDecoder.java:147)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:570)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelClosed(FrameDecoder.java:371)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec$Decoder.channelClosed(HttpClientCodec.java:221)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelClosed(Channels.java:468)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:375)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:58)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleDownstream(HttpClientCodec.java:97)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:109)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.exceptionCaught(NettyAsyncHttpProvider.java:1529)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.IOException: Remotely Closed [id: 0x6e7fd938, /100.84.52.236:56396 :> www.baidu.com/112.80.248.73:80]
+	... 59 more
+[2016-04-08 14:11:39] ERROR ~ 
+
+@6pkcmidlh
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.baidu.com
+
+Execution exception (In /app/controllers/ForwardController.java around line 25)
+RuntimeException occured : jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+
+jws.exceptions.JavaExecutionException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+	at jws.http.HTTP.GET(HTTP.java:73)
+	at controllers.ForwardController.to(ForwardController.java:25)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:213)
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:210)
+	at com.google.common.util.concurrent.Futures$MappingCheckedFuture.mapException(Futures.java:1613)
+	at com.google.common.util.concurrent.AbstractCheckedFuture.checkedGet(AbstractCheckedFuture.java:114)
+	at jws.http.HTTP.GET(HTTP.java:67)
+	... 7 more
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+	at com.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:297)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.abort(NettyAsyncHttpProvider.java:1326)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.channelClosed(NettyAsyncHttpProvider.java:1389)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelClosed(SimpleChannelUpstreamHandler.java:225)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.channelClosed(HttpContentDecoder.java:147)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:570)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelClosed(FrameDecoder.java:371)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec$Decoder.channelClosed(HttpClientCodec.java:221)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelClosed(Channels.java:468)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:375)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:58)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleDownstream(HttpClientCodec.java:97)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:109)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.exceptionCaught(NettyAsyncHttpProvider.java:1529)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.IOException: Remotely Closed [id: 0xf70336b0, /100.84.52.236:56413 :> www.baidu.com/112.80.248.73:80]
+	... 59 more
+[2016-04-08 14:12:02] ERROR ~ 
+
+@6pkcmidli
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.baidu.com
+
+Execution exception (In /app/controllers/ForwardController.java around line 25)
+RuntimeException occured : jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+
+jws.exceptions.JavaExecutionException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+	at jws.http.HTTP.GET(HTTP.java:73)
+	at controllers.ForwardController.to(ForwardController.java:25)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: jws.http.HttpIoException: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:213)
+	at jws.http.SimpleHttpClient$3.apply(SimpleHttpClient.java:210)
+	at com.google.common.util.concurrent.Futures$MappingCheckedFuture.mapException(Futures.java:1613)
+	at com.google.common.util.concurrent.AbstractCheckedFuture.checkedGet(AbstractCheckedFuture.java:114)
+	at jws.http.HTTP.GET(HTTP.java:67)
+	... 7 more
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+	at com.ning.http.client.providers.netty.NettyResponseFuture.abort(NettyResponseFuture.java:297)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.abort(NettyAsyncHttpProvider.java:1326)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.channelClosed(NettyAsyncHttpProvider.java:1389)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.channelClosed(SimpleChannelUpstreamHandler.java:225)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.channelClosed(HttpContentDecoder.java:147)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:570)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelClosed(FrameDecoder.java:371)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec$Decoder.channelClosed(HttpClientCodec.java:221)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:88)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelClosed(Channels.java:468)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:375)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:58)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleDownstream(HttpClientCodec.java:97)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:109)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:197)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.exceptionCaught(NettyAsyncHttpProvider.java:1529)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:142)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:92)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.IOException: Remotely Closed [id: 0xc205c815, /100.84.52.236:56430 :> www.baidu.com/14.215.177.38:80]
+	... 59 more
+[2016-04-08 14:12:49] ERROR ~ 
+
+@6pkcmidlk
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Template not found (In /app/controllers/ForwardController.java around line 40)
+The template ForwardController/to.html does not exist.
+
+jws.exceptions.TemplateNotFoundException: Template not found : ForwardController/to.html
+	at jws.mvc.Controller.renderTemplate(Controller.java:684)
+	at jws.mvc.Controller.renderTemplate(Controller.java:656)
+	at jws.mvc.Controller.render(Controller.java:712)
+	at controllers.ForwardController.to(ForwardController.java:40)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2016-04-08 14:32:17] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-04-08 14:32:19] WARN ~ You're running JWS in DEV mode
+[2016-04-08 14:32:22] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:32:28] ERROR ~ 
+
+@6pkdeij8g
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:33:12] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:33:12] ERROR ~ 
+
+@6pkdeij8h
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:34:57] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:34:57] ERROR ~ 
+
+@6pkdeij8i
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:36:01] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:36:01] ERROR ~ 
+
+@6pkdeij8j
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:38:16] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:38:16] ERROR ~ 
+
+@6pkdeij8k
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:50:05] WARN ~ unhandle exception from [(uri=/ForwardController/to?url=http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:50:05] ERROR ~ 
+
+@6pkdeij8l
+Internal Server Error (500) for request GET /ForwardController/to?url=http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:50:34] WARN ~ unhandle exception from [(uri=/ForwardController/to?http://www.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:50:34] ERROR ~ 
+
+@6pkdeij8m
+Internal Server Error (500) for request GET /ForwardController/to?http://www.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:51:36] WARN ~ unhandle exception from [(uri=/ForwardController/to?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:51:36] ERROR ~ 
+
+@6pkdeij8n
+Internal Server Error (500) for request GET /ForwardController/to?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:52:17] WARN ~ unhandle exception from [(uri=/ForwardController/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:52:17] ERROR ~ 
+
+@6pkdeij8o
+Internal Server Error (500) for request GET /ForwardController/direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:53:13] WARN ~ unhandle exception from [(uri=/ForwardController/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:53:13] ERROR ~ 
+
+@6pkdeij8p
+Internal Server Error (500) for request GET /ForwardController/direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:53:17] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:53:17] ERROR ~ 
+
+@6pkdeij90
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:53:43] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:53:43] ERROR ~ 
+
+@6pkdeij91
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at jws.mvc.Scope$Params.checkAndParse(Scope.java:418)
+	at jws.mvc.Scope$Params.get(Scope.java:451)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:26)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:54:48] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:33)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:54:48] ERROR ~ 
+
+@6pkdeij92
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:33)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:54:58] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:33)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 14:54:58] ERROR ~ 
+
+@6pkdeij93
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:33)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+[2016-04-08 14:55:19] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.RuntimeException: GET http%3A%2F%2Fwww.csdn.net failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:50)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+Caused by: java.net.MalformedURLException: no protocol: http%3A%2F%2Fwww.csdn.net
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:40)
+	... 2 more
+[2016-04-08 14:55:20] ERROR ~ 
+
+@6pkdeij94
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: RuntimeException
+An unexpected error occured caused by exception RuntimeException: GET http%3A%2F%2Fwww.csdn.net failure
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.RuntimeException: GET http%3A%2F%2Fwww.csdn.net failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:50)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+Caused by: java.net.MalformedURLException: no protocol: http%3A%2F%2Fwww.csdn.net
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:40)
+	... 2 more

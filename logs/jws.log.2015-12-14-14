@@ -1,0 +1,63 @@
+[2015-12-14 14:43:28] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-14 14:43:48] ERROR ~ Failed to auto configure default logger context
+[2015-12-14 14:44:01] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:44:06] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:44:08] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:44:48] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:45:18] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-14 14:45:37] ERROR ~ Failed to auto configure default logger context
+[2015-12-14 14:46:31] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:47:25] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:49:51] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-14 14:50:32] INFO ~ 4107.10ms
+[2015-12-14 14:50:33] INFO ~ 1.83ms
+[2015-12-14 14:50:33] INFO ~ 1.10ms
+[2015-12-14 14:50:33] INFO ~ 15.40ms
+[2015-12-14 14:50:37] ERROR ~ Failed to auto configure default logger context
+[2015-12-14 14:50:43] INFO ~ 12.20ms
+[2015-12-14 14:50:43] INFO ~ .64ms
+[2015-12-14 14:50:43] INFO ~ 1.87ms
+[2015-12-14 14:50:44] INFO ~ 4.71ms
+[2015-12-14 14:50:47] INFO ~ 7.84ms
+[2015-12-14 14:50:47] INFO ~ 1.94ms
+[2015-12-14 14:50:47] INFO ~ .72ms
+[2015-12-14 14:50:47] INFO ~ 1.22ms
+[2015-12-14 14:51:05] INFO ~ 5.84ms
+[2015-12-14 14:51:05] INFO ~ .64ms
+[2015-12-14 14:51:05] INFO ~ .75ms
+[2015-12-14 14:51:06] INFO ~ 2.60ms
+[2015-12-14 14:51:07] INFO ~ 6.34ms
+[2015-12-14 14:51:07] INFO ~ .62ms
+[2015-12-14 14:51:07] INFO ~ 2.03ms
+[2015-12-14 14:51:08] INFO ~ 1.05ms
+[2015-12-14 14:51:37] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-14 14:51:48] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:51:48] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:51:48] INFO ~ 1134.61ms
+[2015-12-14 14:51:48] INFO ~ 190.17ms
+[2015-12-14 14:51:49] INFO ~ 4.19ms
+[2015-12-14 14:51:49] INFO ~ 1.19ms
+[2015-12-14 14:51:49] INFO ~ 5.06ms
+[2015-12-14 14:51:56] ERROR ~ Failed to auto configure default logger context
+[2015-12-14 14:52:23] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:52:23] INFO ~ 9.58ms
+[2015-12-14 14:52:23] INFO ~ 1.16ms
+[2015-12-14 14:52:23] INFO ~ 1.02ms
+[2015-12-14 14:52:24] INFO ~ 2.23ms
+[2015-12-14 14:52:48] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:52:48] INFO ~ 15.74ms
+[2015-12-14 14:52:49] INFO ~ .75ms
+[2015-12-14 14:52:49] INFO ~ .85ms
+[2015-12-14 14:52:49] INFO ~ 1.02ms
+[2015-12-14 14:53:45] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:55:02] INFO ~ 117630.57ms
+[2015-12-14 14:55:03] INFO ~ .54ms
+[2015-12-14 14:55:03] INFO ~ 1.85ms
+[2015-12-14 14:55:03] INFO ~ 6.36ms
+[2015-12-14 14:56:27] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-14 14:56:46] ERROR ~ Failed to auto configure default logger context
+[2015-12-14 14:57:23] INFO ~ {} hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | hello logback | 
+[2015-12-14 14:57:23] INFO ~ 4309.03ms
+[2015-12-14 14:57:23] INFO ~ 3.47ms
+[2015-12-14 14:57:23] INFO ~ 1.37ms
+[2015-12-14 14:57:24] INFO ~ 10.63ms

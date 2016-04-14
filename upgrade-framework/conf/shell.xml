@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shell>
+    <!--说明：
+        1)如下脚本路径，都是相对于升级程序主目录的;
+        2)对脚本任务是按照配置顺序执行-->
+    <!--需要在准备阶段调用的脚本，请配置相对于升级程序主目录的配置-->
+    <prepare>
+        <!-- 参数说明：
+            cmdPath[必填]: 待执行脚本的相对路径信息
+            params[可选]: 脚本对应的输入参数，多个参数见使用英文‘,’号隔开，如参数含空格等信息，请用英文"'"号
+             -->
+		<!--
+        <item cmdPath="shell/prepare/prepare.sh" params="hello,'nihao china'" />
+        -->
+    </prepare>
+    <!--需要在执行阶段调用的脚本，请配置相对于升级程序主目录的配置-->
+    <execute>
+        <!-- 参数说明：
+            cmdPath[必填]: 待执行脚本的相对路径信息
+            params[可选]: 脚本对应的输入参数，多个参数见使用英文‘,’号隔开，如参数含空格等信息，请用英文"'"号
+             -->
+	    <!--
+        <item cmdPath="shell/execute/execute.sh" params="hello,'nihao china'" />
+		-->
+    </execute>
+    <!--需要在修正阶段调用的脚本，请配置相对于升级程序主目录的配置-->
+    <revise>
+        <!-- 参数说明：
+            cmdPath[必填]: 待执行脚本的相对路径信息
+            params[可选]: 脚本对应的输入参数，多个参数见使用英文‘,’号隔开，如参数含空格等信息，请用英文"'"号
+             -->
+        <!--
+		<item cmdPath="shell/revise/revise.sh" params="hello,'nihao china'" />
+		-->
+    </revise>
+</shell>

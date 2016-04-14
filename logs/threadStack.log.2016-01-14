@@ -1,0 +1,40 @@
+[2016-01-14 18:03:54] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(21)
+controllers.Handler.onException(line:30);
+
+[2016-01-14 18:08:17] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(35)
+controllers.Handler.onException(line:26);
+
+[2016-01-14 18:08:20] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(36)
+controllers.Handler.onException(line:26);
+
+[2016-01-14 18:08:23] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(37)
+controllers.Handler.onException(line:26);
+
+[2016-01-14 18:08:26] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(38)
+controllers.Handler.onException(line:26);
+
+[2016-01-14 18:08:29] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(39)
+controllers.Handler.onException(line:26);
+
+[2016-01-14 18:13:16] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(61)
+java.net.SocketInputStream.read(line:129);
+com.sun.net.ssl.internal.ssl.InputRecord.readFully(line:422);
+com.sun.net.ssl.internal.ssl.InputRecord.read(line:460);
+com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(line:863);
+com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(line:820);
+com.sun.net.ssl.internal.ssl.AppInputStream.read(line:75);
+java.io.BufferedInputStream.fill(line:218);
+java.io.BufferedInputStream.read1(line:258);
+java.io.BufferedInputStream.read(line:317);
+sun.net.www.http.HttpClient.parseHTTPHeader(line:698);
+sun.net.www.http.HttpClient.parseHTTP(line:641);
+sun.net.www.protocol.http.HttpURLConnection.getInputStream(line:1218);
+java.net.HttpURLConnection.getResponseCode(line:379);
+sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(line:318);
+org.nutz.http.Sender.getResponseHeader(line:108);
+org.nutz.http.sender.GetSender.send(line:19);
+org.nutz.http.Http.get(line:62);
+io.github.elkan1788.mpsdk4j.util.HttpTool.get(line:39);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getUserInfo(line:738);
+controllers.WechatSupportController.oauth(line:106);
+

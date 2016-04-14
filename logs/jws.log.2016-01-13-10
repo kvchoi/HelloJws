@@ -1,0 +1,49 @@
+[2016-01-13 10:58:27] ERROR ~ 
+
+@6omb2i1i9
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+ExceptionInInitializerError occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:67)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:39)
+	at io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(ApiResult.java:25)
+	... 9 more
+[2016-01-13 10:59:53] ERROR ~ 
+
+@6omb2i1ia
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more

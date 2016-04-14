@@ -1,0 +1,1734 @@
+[2016-04-08 17:08:02] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:08:02] ERROR ~ 
+
+@6pke32803
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:10:32] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:10:32] ERROR ~ 
+
+@6pke32804
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:10:49] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:10:49] ERROR ~ 
+
+@6pke32805
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:11:32] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:11:32] ERROR ~ 
+
+@6pke32806
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:12:27] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:12:27] ERROR ~ 
+
+@6pke32807
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:12:45] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:12:45] ERROR ~ 
+
+@6pke32808
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:13:49] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:13:49] ERROR ~ 
+
+@6pke32809
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:16:26] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:16:26] ERROR ~ 
+
+@6pke3280a
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 17:18:04] ERROR ~ 
+
+@6pke3280b
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:18:05] ERROR ~ 
+
+@6pke3280c
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:18:05] ERROR ~ 
+
+@6pke3280d
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:19:33] ERROR ~ 
+
+@6pke3280e
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:19:41] ERROR ~ 
+
+@6pke3280f
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:19:42] ERROR ~ 
+
+@6pke3280g
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:19:42] ERROR ~ 
+
+@6pke3280h
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:21:00] ERROR ~ 
+
+@6pke3280i
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:21:00] ERROR ~ 
+
+@6pke3280j
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:21:00] ERROR ~ 
+
+@6pke3280k
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:22:14] ERROR ~ 
+
+@6pke3280l
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:22:14] ERROR ~ 
+
+@6pke3280m
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:22:14] ERROR ~ 
+
+@6pke3280n
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:28:27] ERROR ~ 
+
+@6pke3280o
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:28:27] ERROR ~ 
+
+@6pke3280p
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:28:27] ERROR ~ 
+
+@6pke32810
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:28:32] ERROR ~ 
+
+@6pke32811
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:28:32] ERROR ~ 
+
+@6pke32812
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:28:32] ERROR ~ 
+
+@6pke32813
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:28:36] ERROR ~ 
+
+@6pke32814
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:28:36] ERROR ~ 
+
+@6pke32815
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:28:36] ERROR ~ 
+
+@6pke32816
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:29:15] ERROR ~ 
+
+@6pke32817
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:29:18] ERROR ~ 
+
+@6pke32818
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:29:19] ERROR ~ 
+
+@6pke32819
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:29:50] ERROR ~ 
+
+@6pke3281a
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:29:53] ERROR ~ 
+
+@6pke3281b
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:29:55] ERROR ~ 
+
+@6pke3281c
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:30:18] ERROR ~ 
+
+@6pke3281d
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:30:18] ERROR ~ 
+
+@6pke3281e
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:30:18] ERROR ~ 
+
+@6pke3281f
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:30:30] ERROR ~ 
+
+@6pke3281g
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:30:30] ERROR ~ 
+
+@6pke3281h
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:30:30] ERROR ~ 
+
+@6pke3281i
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:30:49] ERROR ~ 
+
+@6pke3281j
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:30:49] ERROR ~ 
+
+@6pke3281k
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:30:49] ERROR ~ 
+
+@6pke3281l
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:31:57] ERROR ~ 
+
+@6pke3281m
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:32:01] ERROR ~ 
+
+@6pke3281n
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:32:05] ERROR ~ 
+
+@6pke3281o
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:32:43] ERROR ~ 
+
+@6pke3281p
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:32:43] ERROR ~ 
+
+@6pke32820
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:32:43] ERROR ~ 
+
+@6pke32821
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:33:03] ERROR ~ 
+
+@6pke32822
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:33:03] ERROR ~ 
+
+@6pke32823
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:33:03] ERROR ~ 
+
+@6pke32824
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:33:15] ERROR ~ 
+
+@6pke32825
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:33:15] ERROR ~ 
+
+@6pke32826
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:33:15] ERROR ~ 
+
+@6pke32827
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:33:29] ERROR ~ 
+
+@6pke32828
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:33:29] ERROR ~ 
+
+@6pke32829
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:33:29] ERROR ~ 
+
+@6pke3282a
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:33:56] ERROR ~ 
+
+@6pke3282b
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:33:56] ERROR ~ 
+
+@6pke3282c
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:33:56] ERROR ~ 
+
+@6pke3282d
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:34:08] ERROR ~ 
+
+@6pke3282e
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:34:08] ERROR ~ 
+
+@6pke3282f
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:34:08] ERROR ~ 
+
+@6pke3282g
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:34:51] ERROR ~ 
+
+@6pke3282h
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:34:51] ERROR ~ 
+
+@6pke3282i
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:34:51] ERROR ~ 
+
+@6pke3282j
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:35:44] ERROR ~ 
+
+@6pke3282k
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:35:44] ERROR ~ 
+
+@6pke3282l
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:35:44] ERROR ~ 
+
+@6pke3282m
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:36:34] ERROR ~ 
+
+@6pke3282n
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:36:35] ERROR ~ 
+
+@6pke3282o
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:36:35] ERROR ~ 
+
+@6pke3282p
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:36:56] ERROR ~ 
+
+@6pke32830
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:36:56] ERROR ~ 
+
+@6pke32831
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:36:56] ERROR ~ 
+
+@6pke32832
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:41:16] ERROR ~ 
+
+@6pke32833
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:41:16] ERROR ~ 
+
+@6pke32834
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:41:16] ERROR ~ 
+
+@6pke32835
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:41:21] ERROR ~ 
+
+@6pke32836
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:41:21] ERROR ~ 
+
+@6pke32837
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:41:21] ERROR ~ 
+
+@6pke32838
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:41:25] ERROR ~ 
+
+@6pke32839
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:41:25] ERROR ~ 
+
+@6pke3283a
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:41:25] ERROR ~ 
+
+@6pke3283b
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:46:56] ERROR ~ 
+
+@6pke3283c
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:46:56] ERROR ~ 
+
+@6pke3283d
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:46:56] ERROR ~ 
+
+@6pke3283e
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:47:17] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.RuntimeException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:93)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:47:18] ERROR ~ 
+
+@6pke3283f
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:47:18] ERROR ~ 
+
+@6pke3283g
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:47:18] ERROR ~ 
+
+@6pke3283h
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:47:22] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.RuntimeException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:93)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:47:23] ERROR ~ 
+
+@6pke3283i
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:47:23] ERROR ~ 
+
+@6pke3283j
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:47:23] ERROR ~ 
+
+@6pke3283k
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:49:05] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.RuntimeException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:93)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:49:06] ERROR ~ 
+
+@6pke3283l
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:49:06] ERROR ~ 
+
+@6pke3283m
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:49:06] ERROR ~ 
+
+@6pke3283n
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:49:23] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.RuntimeException
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:93)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:49:24] ERROR ~ 
+
+@6pke3283o
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:49:24] ERROR ~ 
+
+@6pke3283p
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:49:24] ERROR ~ 
+
+@6pke32840
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:49:45] ERROR ~ 
+
+@6pke32841
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:49:45] ERROR ~ 
+
+@6pke32842
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:49:45] ERROR ~ 
+
+@6pke32843
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:51:00] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:2432)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:68)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:51:05] ERROR ~ proxy direct to url = http://www.csdn.net
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:2432)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:68)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+[2016-04-08 17:51:16] ERROR ~ 
+
+@6pke32844
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:51:16] ERROR ~ 
+
+@6pke32845
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:51:16] ERROR ~ 
+
+@6pke32846
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:51:19] ERROR ~ 
+
+@6pke32847
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:51:19] ERROR ~ 
+
+@6pke32848
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:51:19] ERROR ~ 
+
+@6pke32849
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:55:31] ERROR ~ 
+
+@6pke3284a
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:55:31] ERROR ~ 
+
+@6pke3284b
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 17:55:32] ERROR ~ 
+
+@6pke3284c
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:55:36] ERROR ~ 
+
+@6pke3284d
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 17:55:36] ERROR ~ 
+
+@6pke3284e
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 17:55:36] ERROR ~ 
+
+@6pke3284f
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more

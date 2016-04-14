@@ -1,0 +1,27 @@
+[2016-01-14 17:58:03] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-14 17:58:05] WARN ~ You're running JWS in DEV mode
+[2016-01-14 17:58:51] ERROR ~ 
+
+@6omkcp05c
+Internal Server Error (500) for request GET /wx/getAccessTokenByCode?code=01104516cc3646b8eccbf3363b6b6bcy
+
+Execution exception (In /app/services/WechatSupportService.java around line 43)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:118)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	... 9 more
+[2016-01-14 17:58:56] ERROR ~ Failed to auto configure default logger context

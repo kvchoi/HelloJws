@@ -1,0 +1,130 @@
+[2016-01-15 10:57:57] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:05:34] ERROR ~ Get user oath access token by code[011cbd3d2f7a6a208bbff569c92d955W] failed. There try 0 items.
+[2016-01-15 11:05:34] ERROR ~ Get user oath access token by code[011cbd3d2f7a6a208bbff569c92d955W] failed. There try 1 items.
+[2016-01-15 11:05:34] ERROR ~ Get user oath access token by code[011cbd3d2f7a6a208bbff569c92d955W] failed. There try 2 items.
+[2016-01-15 11:05:34] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0140ns39 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:50)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:125)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 0140ns39 ]"}
+	... 9 more
+[2016-01-15 11:05:43] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:47:14] ERROR ~ 
+
+@6ompn67al
+500
+
+Cache error (In /app/utils/MCSessionCache.java around line 20)
+Cannot cache a non-serializable value of type io.github.elkan1788.mpsdk4j.vo.api.AccessToken
+
+jws.exceptions.CacheException: Cannot cache a non-serializable value of type io.github.elkan1788.mpsdk4j.vo.api.AccessToken
+	at jws.cache.Cache.checkSerializable(Cache.java:287)
+	at jws.cache.Cache.set(Cache.java:101)
+	at utils.MCSessionCache.set(MCSessionCache.java:20)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:672)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:50)
+	at controllers.WechatSupportController.oauth(WechatSupportController.java:101)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.io.NotSerializableException: io.github.elkan1788.mpsdk4j.vo.api.AccessToken
+	... 12 more
+[2016-01-15 11:47:22] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:50:55] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 0 items.
+[2016-01-15 11:50:55] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 1 items.
+[2016-01-15 11:50:55] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 2 items.
+[2016-01-15 11:50:55] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Hkg80862ns58 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:679)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:50)
+	at controllers.WechatSupportController.oauth(WechatSupportController.java:101)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Hkg80862ns58 ]"}
+	... 9 more
+[2016-01-15 11:51:04] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:51:48] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 0 items.
+[2016-01-15 11:51:48] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 1 items.
+[2016-01-15 11:51:49] ERROR ~ Get user oath access token by code[0010dc78ff65ec5d308123830a23792r] failed. There try 2 items.
+[2016-01-15 11:51:49] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Q4B_sa0915ns12 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:679)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:50)
+	at controllers.WechatSupportController.oauth(WechatSupportController.java:101)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Q4B_sa0915ns12 ]"}
+	... 9 more
+[2016-01-15 11:51:57] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:53:58] ERROR ~ Get user oath access token by code[0313b3bb578d3955a39a5cb8b4055eaV] failed. There try 0 items.
+[2016-01-15 11:53:58] ERROR ~ Get user oath access token by code[0313b3bb578d3955a39a5cb8b4055eaV] failed. There try 1 items.
+[2016-01-15 11:53:58] ERROR ~ Get user oath access token by code[0313b3bb578d3955a39a5cb8b4055eaV] failed. There try 2 items.
+[2016-01-15 11:53:58] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: b0FeJa0044ns17 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:679)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:50)
+	at controllers.WechatSupportController.oauth(WechatSupportController.java:101)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: b0FeJa0044ns17 ]"}
+	... 9 more
+[2016-01-15 11:55:27] ERROR ~ 500
+java.lang.NullPointerException
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getUserInfo(WechatAPIImpl.java:745)
+	at services.WechatSupportService.getUserInfoByOpenid(WechatSupportService.java:55)
+	at controllers.WechatSupportController.getUserInfo(WechatSupportController.java:129)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2016-01-15 11:55:31] ERROR ~ 500
+java.lang.NullPointerException
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getUserInfo(WechatAPIImpl.java:745)
+	at services.WechatSupportService.getUserInfoByOpenid(WechatSupportService.java:55)
+	at controllers.WechatSupportController.getUserInfo(WechatSupportController.java:129)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+[2016-01-15 11:55:37] ERROR ~ Failed to auto configure default logger context
+[2016-01-15 11:55:42] ERROR ~ 500
+java.lang.NullPointerException
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getUserInfo(WechatAPIImpl.java:745)
+	at services.WechatSupportService.getUserInfoByOpenid(WechatSupportService.java:55)
+	at controllers.WechatSupportController.getUserInfo(WechatSupportController.java:129)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)

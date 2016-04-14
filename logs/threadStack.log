@@ -1,0 +1,141 @@
+[2016-04-08 12:12:01] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(11)
+org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.keyFromID(line:109);
+org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.loadMessageTemplates(line:228);
+org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.setLocale(line:127);
+org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>(line:40);
+jws.classloading.ApplicationCompiler.compile(line:131);
+jws.classloading.ApplicationClasses$ApplicationClass.compile(line:250);
+jws.classloading.ApplicationClassloader.detectChanges(line:386);
+jws.Jws.detectChanges(line:986);
+jws.Invoker$Invocation.init(line:239);
+jws.server.JwsHandler$NettyInvocation.init(line:285);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:370);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2016-04-08 12:12:10] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(14)
+jws.http.ListenableFutureAdapter.<init>(line:41);
+jws.http.ListenableFutureAdapter.<init>(line:51);
+jws.http.SimpleHttpClient.doGet(line:209);
+jws.http.HTTP.GET(line:64);
+controllers.ForwardController.to(line:25);
+locked by=(pool-19-thread-1)
+org.jboss.netty.util.HashedWheelTimer$Worker.waitForNextTick(line:440);
+org.jboss.netty.util.HashedWheelTimer$Worker.run(line:364);
+org.jboss.netty.util.ThreadRenamingRunnable.run(line:108);
+java.lang.Thread.run(line:662);
+
+[2016-04-08 12:15:19] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+controllers.ForwardController.to(line:19);
+
+[2016-04-08 12:15:22] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(3)
+controllers.ForwardController.to(line:24);
+
+[2016-04-08 12:15:25] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(4)
+controllers.ForwardController.to(line:41);
+
+[2016-04-08 12:15:28] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(5)
+controllers.ForwardController.to(line:41);
+
+[2016-04-08 12:15:31] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(6)
+controllers.ForwardController.to(line:41);
+
+[2016-04-08 12:17:33] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(24)
+jws.http.HTTP.GET(line:67);
+controllers.ForwardController.to(line:25);
+
+[2016-04-08 14:11:54] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(367)
+controllers.ForwardController.to(line:25);
+
+[2016-04-08 14:12:14] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(368)
+controllers.ForwardController.to(line:20);
+
+[2016-04-08 14:12:34] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(369)
+controllers.ForwardController.to(line:38);
+
+[2016-04-08 17:18:05] ~ thread=(jws-thread-12)state=(RUNNABLE)autoTag=(185)
+groovy.lang.MetaClassImpl$MethodIndexAction.iterate(line:3284);
+groovy.lang.MetaClassImpl.removeMultimethodsOverloadedWithPrivateMethods(line:434);
+groovy.lang.MetaClassImpl.fillMethodIndex(line:298);
+groovy.lang.MetaClassImpl.initialize(line:2920);
+org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(line:166);
+org.codehaus.groovy.reflection.ClassInfo.getMetaClass(line:182);
+org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(line:210);
+org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(line:751);
+groovy.lang.GroovyObjectSupport.<init>(line:32);
+groovy.lang.Script.<init>(line:40);
+groovy.lang.Script.<init>(line:37);
+jws.templates.GroovyTemplate$ExecutableTemplate.<init>(line:319);
+sun.reflect.NativeConstructorAccessorImpl.newInstance(line:39);
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(line:27);
+java.lang.reflect.Constructor.newInstance(line:513);
+java.lang.Class.newInstance0(line:357);
+java.lang.Class.newInstance(line:310);
+org.codehaus.groovy.runtime.InvokerHelper.createScript(line:408);
+jws.templates.GroovyTemplate.internalRender(line:224);
+jws.templates.GroovyTemplate$ExecutableTemplate.invokeTag(line:375);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:362);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(line:66);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:161);
+Template_1001$_run_closure1.doCall(line:10);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(line:66);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:149);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+groovy.lang.Closure.call(line:282);
+groovy.lang.Closure.call(line:277);
+org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(line:99);
+org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.access$300(line:61);
+org.codehaus.groovy.runtime.GroovyCategorySupport.use(line:239);
+org.codehaus.groovy.runtime.DefaultGroovyMethods.use(line:333);
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoMetaMethodSiteNoUnwrapNoCoerce.invoke(line:307);
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(line:51);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:153);
+Template_1001.run(line:2);
+jws.templates.GroovyTemplate.internalRender(line:230);
+jws.templates.Template.render(line:26);
+jws.templates.GroovyTemplate.render(line:185);
+jws.server.JwsHandler.serve404(line:904);
+jws.server.JwsHandler$NettyInvocation.init(line:287);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:370);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+

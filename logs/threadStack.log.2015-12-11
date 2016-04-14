@@ -1,0 +1,112 @@
+[2015-12-11 16:20:30] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(5)
+java.io.File.exists(line:733);
+jws.vfs.VirtualFile.exists(line:99);
+jws.vfs.VirtualFile.search(line:214);
+jws.Jws.getVirtualFile(line:1139);
+jws.server.JwsHandler.serveStatic(line:997);
+jws.server.JwsHandler$NettyInvocation.init(line:293);
+jws.Invoker$Invocation.run(line:320);
+jws.server.JwsHandler$NettyInvocation.run(line:331);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2015-12-11 16:25:46] ~ thread=(jws-thread-18)state=(RUNNABLE)autoTag=(22)
+jws.classloading.enhancers.LocalvariablesNamesEnhancer$LocalVariablesNamesTracer.addVariable(line:398);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:26:33] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(1)
+jws.classloading.enhancers.LocalvariablesNamesEnhancer$LocalVariablesNamesTracer.addVariable(line:398);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:26:36] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:26:39] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(3)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:26:54] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(8)
+controllers.Application.index(line:25);
+
+[2015-12-11 16:26:57] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(9)
+jws.classloading.enhancers.LocalvariablesNamesEnhancer$LocalVariablesNamesTracer.addVariable(line:398);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:00] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(10)
+jws.classloading.enhancers.LocalvariablesNamesEnhancer$LocalVariablesNamesTracer.addVariable(line:399);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:03] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(11)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:06] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(12)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:09] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(13)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:12] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(14)
+jws.Logger.isEventEnabled(line:568);
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:15] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(15)
+jws.Logger.event(line:543);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:18] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(16)
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:21] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(17)
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:27:24] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(18)
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:28:30] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(23)
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:28:50] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(24)
+org.apache.log4j.Logger.getLogger(line:104);
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 16:29:10] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(25)
+org.apache.log4j.spi.LoggingEvent.<init>(line:158);
+org.apache.log4j.Category.forcedLog(line:391);
+org.apache.log4j.Category.info(line:666);
+jws.Logger.event(line:555);
+controllers.Application.index(line:25);
+
+[2015-12-11 17:04:37] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(34)
+controllers.Application.index(line:30);
+
+[2015-12-11 17:04:57] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(35)
+controllers.Application.index(line:30);
+
+[2015-12-11 17:05:17] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(36)
+controllers.Application.index(line:30);
+
+[2015-12-11 17:05:37] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(37)
+controllers.Application.index(line:30);
+
+[2015-12-11 17:05:57] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(38)
+controllers.Application.index(line:30);
+
+[2015-12-11 17:06:17] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(39)
+controllers.Application.index(line:30);
+

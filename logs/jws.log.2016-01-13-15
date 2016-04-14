@@ -1,0 +1,28 @@
+[2016-01-13 15:27:55] ERROR ~ 
+
+@6omb2i1ie
+uc.rec action not found
+
+Action not found
+Action uc.rec could not be found. Error raised is Controller controllers.uc not found
+
+jws.exceptions.ActionNotFoundException: Action uc.rec not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.uc not found
+	... 3 more
+[2016-01-13 15:28:24] ERROR ~ 
+
+@6omb2i1if
+uc.rec action not found
+
+Action not found
+Action uc.rec could not be found. Error raised is Controller controllers.uc not found
+
+jws.exceptions.ActionNotFoundException: Action uc.rec not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.uc not found
+	... 3 more

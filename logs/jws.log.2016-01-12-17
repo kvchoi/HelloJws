@@ -1,0 +1,383 @@
+[2016-01-12 17:06:57] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-12 17:06:58] WARN ~ You're running JWS in DEV mode
+[2016-01-12 17:07:09] ERROR ~ 
+
+@6om5i0oee
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Oops: ExceptionInInitializerError
+An unexpected error occured caused by exception ExceptionInInitializerError: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.<clinit>(WechatSupportController.java:20)
+	... 7 more
+[2016-01-12 17:07:17] ERROR ~ Failed to auto configure default logger context
+[2016-01-12 17:07:26] ERROR ~ 
+
+@6om5i0oef
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Oops: NoClassDefFoundError
+An unexpected error occured caused by exception NoClassDefFoundError: Could not initialize class controllers.WechatSupportController
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:292)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class controllers.WechatSupportController
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at jws.utils.Java.parameterNames(Java.java:194)
+	at jws.mvc.ActionInvoker.getActionMethodArgs(ActionInvoker.java:661)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:08:44] ERROR ~ 
+
+@6om5i0oeg
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:58)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:10:16] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-12 17:10:17] WARN ~ You're running JWS in DEV mode
+[2016-01-12 17:10:26] ERROR ~ 
+
+@6om5ic4cb
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:58)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:10:34] ERROR ~ Failed to auto configure default logger context
+[2016-01-12 17:10:52] ERROR ~ 
+
+@6om5ic4cc
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:58)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:11:06] ERROR ~ 
+
+@6om5ic4cd
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:57)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:11:23] ERROR ~ 
+
+@6om5ic4ce
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:57)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:12:16] ERROR ~ 
+
+@6om5ic4cf
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:57)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:12:37] ERROR ~ 
+
+@6om5ic4cg
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 32)
+NullPointerException occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:44)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:32)
+	at controllers.WechatSupportController.init(WechatSupportController.java:32)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:57)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-12 17:21:55] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-12 17:21:56] WARN ~ You're running JWS in DEV mode
+[2016-01-12 17:23:47] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-12 17:23:49] WARN ~ You're running JWS in DEV mode
+[2016-01-12 17:24:03] ERROR ~ 
+
+@6om5k6i37
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 63)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:206)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:63)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	... 8 more
+Caused by: org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:198)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:203)
+	... 7 more
+[2016-01-12 17:24:04] ERROR ~ Failed to auto configure default logger context
+[2016-01-12 17:25:26] ERROR ~ 
+
+@6om5k6i38
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 63)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:206)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:63)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	... 8 more
+Caused by: org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:198)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:203)
+	... 7 more
+[2016-01-12 17:26:02] ERROR ~ 
+
+@6om5k6i39
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 63)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:206)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:63)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	... 8 more
+Caused by: org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:198)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:203)
+	... 7 more
+[2016-01-12 17:26:28] ERROR ~ 
+
+@6om5k6i3a
+Internal Server Error (500) for request GET /WechatSupportController/interact
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 63)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:206)
+	at controllers.WechatSupportController.interact(WechatSupportController.java:63)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatRunTimeException: 明文模式下解析消息出现异常
+	... 8 more
+Caused by: org.xml.sax.SAXParseException: Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:198)
+	at io.github.elkan1788.mpsdk4j.core.WechatKernel.handle(WechatKernel.java:203)
+	... 7 more
+[2016-01-12 17:44:40] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-01-12 17:44:42] WARN ~ You're running JWS in DEV mode
+[2016-01-12 17:45:08] ERROR ~ Failed to auto configure default logger context

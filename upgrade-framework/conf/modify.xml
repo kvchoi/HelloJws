@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modify>
+    <!--修改新应用配置文件中内容-->
+    <!--针对key=value类型的properties配置文件-->
+    <properties>
+        <!--path:待修改的配置文件;
+                                说明:path:如不配置或为空，则忽略该配置 
+                                子节点说明：
+                                使用宏变量，做字符串字面值替换，其中Message_URL对应至macro.properties中的值
+                    [说明]
+                    name:如不配置或空，则忽略该配置；
+                    value：该值统一使用${}作为宏描述，其对应的值为macro.properties中的key，
+                                        如果对应的key不存在，则异常退出
+                    tip: 升级准备阶段，对需要根据实际运行环境配置的信息，需要提示用户配置，此处是提示信息
+                    example：仅供开发人员编写该宏对应的示例，例如在开发阶段，可以将其填写为测试环境的配置信息，最后统一在
+                            macro.properties中修改对应的宏值，该配置可忽略               
+                            
+                                【重要】macro.properties文件中的值由运营人员根据线上具体情况填写。
+            -->
+        <!--
+            <item path="conf/app.properties">
+                <key name="msg.url" value="${Message_URL}" tip="Please input message url" example=""/>
+            </item>
+            -->
+    </properties>
+    <!--针对xml类型的配置文件-->
+    <xmls>
+        <!--srcPath:待修改的配置文件;
+                                说明:path:如不配置或为空，则忽略该配置 
+                               子节点说明：
+                               使用宏变量，做字符串字面值替换，其中Message_URL对应至macro.properties中的值
+                    [说明]
+                    name:对应xml中节点路径dom4j的xPath表示，[]为对应的节点属性信息，例如client[@name='client0']，表示
+                      对应client节点的属性为:name='client0'节点
+                                   如不配置或空，则忽略该配置，该节点必须是叶子节点；
+                    value：该值统一使用${}作为宏描述，其对应的值为macro.properties中的key，
+                                        如果对应的key不存在，则异常退出
+                    tip: 升级准备阶段，对需要根据实际运行环境配置的信息，需要提示用户配置，此处是提示信息
+                    example：仅供开发人员编写该宏对应的示例，例如在开发阶段，可以将其填写为测试环境的配置信息，最后统一在
+                            macro.properties中修改对应的宏值，该配置可忽略
+                            
+                                【重要】macro.properties文件中的值由运营人员根据线上具体情况填写。
+             -->
+        <!--
+            <item path="conf/cache-server.xml">
+                <key name="/memcached/client[@name='client0']/servers" value="${MemCached_URL}" tip="Please input MC url" example=""/>
+            </item>
+        -->
+    </xmls>
+</modify>

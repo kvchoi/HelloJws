@@ -1,0 +1,20 @@
+[2015-12-05 18:09:10] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-05 18:09:28] ERROR ~ Failed to auto configure default logger context
+[2015-12-05 18:12:09] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-05 18:12:30] ERROR ~ Failed to auto configure default logger context
+[2015-12-05 18:17:39] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2015-12-05 18:17:59] ERROR ~ Failed to auto configure default logger context
+[2015-12-05 18:42:26] ERROR ~ 
+
+@6obflo37d
+api.friends action not found
+
+Action not found
+Action api.friends could not be found. Error raised is Controller controllers.api not found
+
+jws.exceptions.ActionNotFoundException: Action api.friends not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.api not found
+	... 3 more

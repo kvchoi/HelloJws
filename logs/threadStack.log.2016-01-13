@@ -1,0 +1,389 @@
+[2016-01-13 10:59:26] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(3152)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 10:59:46] ~ thread=(jws-thread-5)state=(RUNNABLE)autoTag=(3153)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 11:02:26] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(3161)
+io.github.elkan1788.mpsdk4j.util.HttpTool.get(line:40);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:37:46] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(1)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:37:49] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:37:52] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(3)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:37:55] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(4)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:37:58] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(5)
+sun.security.provider.SHA.implCompress(line:110);
+sun.security.provider.DigestBase.engineUpdate(line:122);
+java.security.MessageDigest$Delegate.engineUpdate(line:538);
+java.security.MessageDigest.update(line:283);
+sun.security.util.ManifestEntryVerifier.update(line:154);
+java.util.jar.JarVerifier.update(line:196);
+java.util.jar.JarVerifier$VerifierStream.read(line:446);
+java.io.BufferedInputStream.read1(line:256);
+java.io.BufferedInputStream.read(line:317);
+com.sun.net.ssl.internal.ssl.JsseJce.getCipher(line:180);
+com.sun.net.ssl.internal.ssl.CipherBox.<init>(line:85);
+com.sun.net.ssl.internal.ssl.CipherBox.newCipherBox(line:119);
+com.sun.net.ssl.internal.ssl.CipherSuite$BulkCipher.newCipher(line:369);
+com.sun.net.ssl.internal.ssl.CipherSuite$BulkCipher.isAvailable(line:407);
+com.sun.net.ssl.internal.ssl.CipherSuite$BulkCipher.isAvailable(line:386);
+com.sun.net.ssl.internal.ssl.CipherSuite.isAvailable(line:144);
+com.sun.net.ssl.internal.ssl.CipherSuiteList.buildAvailableCache(line:215);
+com.sun.net.ssl.internal.ssl.CipherSuiteList.getDefault(line:239);
+com.sun.net.ssl.internal.ssl.SSLSocketImpl.init(line:531);
+com.sun.net.ssl.internal.ssl.SSLSocketImpl.<init>(line:469);
+com.sun.net.ssl.internal.ssl.SSLSocketFactoryImpl.createSocket(line:56);
+sun.net.www.protocol.https.HttpsClient.createSocket(line:362);
+sun.net.NetworkClient.doConnect(line:145);
+sun.net.www.http.HttpClient.openServer(line:411);
+sun.net.www.http.HttpClient.openServer(line:525);
+sun.net.www.protocol.https.HttpsClient.<init>(line:272);
+sun.net.www.protocol.https.HttpsClient.New(line:329);
+sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(line:172);
+sun.net.www.protocol.http.HttpURLConnection.plainConnect(line:923);
+sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(line:158);
+sun.net.www.protocol.http.HttpURLConnection.getInputStream(line:1195);
+java.net.HttpURLConnection.getResponseCode(line:379);
+sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(line:318);
+org.nutz.http.Sender.getResponseHeader(line:108);
+org.nutz.http.sender.GetSender.send(line:19);
+org.nutz.http.Http.get(line:62);
+io.github.elkan1788.mpsdk4j.util.HttpTool.get(line:39);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:38:01] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(6)
+java.io.File.exists(line:733);
+sun.misc.URLClassPath$FileLoader.getResource(line:999);
+sun.misc.URLClassPath.getResource(line:169);
+java.net.URLClassLoader$1.run(line:194);
+java.net.URLClassLoader.findClass(line:190);
+java.lang.ClassLoader.loadClass(line:306);
+sun.misc.Launcher$AppClassLoader.loadClass(line:301);
+java.lang.ClassLoader.loadClass(line:247);
+org.codehaus.groovy.reflection.GeneratedMetaMethod$DgmMethodRecord.loadDgmInfo(line:184);
+org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.registerMethods(line:139);
+org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(line:81);
+org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(line:59);
+groovy.lang.GroovySystem.<clinit>(line:29);
+org.codehaus.groovy.runtime.InvokerHelper.<clinit>(line:49);
+groovy.lang.GroovyObjectSupport.<init>(line:32);
+groovy.lang.Binding.<init>(line:34);
+groovy.lang.GroovyShell.<init>(line:62);
+jws.templates.GroovyTemplate.<clinit>(line:62);
+jws.templates.TemplateLoader.load(line:80);
+jws.templates.TemplateLoader.load(line:148);
+jws.server.JwsHandler.serve500(line:1020);
+jws.server.JwsHandler$NettyInvocation.run(line:391);
+java.util.concurrent.Executors$RunnableAdapter.call(line:439);
+java.util.concurrent.FutureTask$Sync.innerRun(line:303);
+java.util.concurrent.FutureTask.run(line:138);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(line:98);
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(line:206);
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask(line:895);
+java.util.concurrent.ThreadPoolExecutor$Worker.run(line:918);
+java.lang.Thread.run(line:662);
+
+[2016-01-13 16:38:37] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(18)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:38:40] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(19)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:91);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:38:43] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(20)
+io.github.elkan1788.mpsdk4j.util.HttpTool.get(line:39);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:41:44] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(29)
+io.github.elkan1788.mpsdk4j.util.HttpTool.get(line:39);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:52:04] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(60)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:52);
+controllers.WechatSupportController.getAT(line:77);
+
+[2016-01-13 16:52:44] ~ thread=(jws-thread-8)state=(RUNNABLE)autoTag=(62)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:52);
+controllers.WechatSupportController.getAT(line:77);
+
+[2016-01-13 16:57:41] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(1)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:44] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:47] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(3)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:50] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(4)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:53] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(5)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:67);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:56] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(6)
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<init>(line:35);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.create(line:48);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:57:59] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(7)
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<init>(line:36);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.create(line:48);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:85);
+
+[2016-01-13 16:58:02] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(8)
+java.util.zip.ZipFile.getEntry(line:161);
+java.util.jar.JarFile.getEntry(line:209);
+java.util.jar.JarFile.getJarEntry(line:192);
+sun.misc.URLClassPath$JarLoader.getResource(line:757);
+sun.misc.URLClassPath.getResource(line:169);
+java.net.URLClassLoader$1.run(line:194);
+java.net.URLClassLoader.findClass(line:190);
+java.lang.ClassLoader.loadClass(line:306);
+sun.misc.Launcher$AppClassLoader.loadClass(line:301);
+java.lang.ClassLoader.loadClass(line:247);
+groovy.lang.MetaClassImpl.checkIfStdMethod(line:2681);
+groovy.lang.MetaClassImpl.addMetaMethodToIndex(line:2609);
+groovy.lang.MetaClassImpl.addInterfaceMethods(line:368);
+groovy.lang.MetaClassImpl.fillMethodIndex(line:289);
+groovy.lang.MetaClassImpl.initialize(line:2920);
+org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(line:166);
+org.codehaus.groovy.reflection.ClassInfo.getMetaClass(line:195);
+org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(line:214);
+org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(line:747);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.createPojoSite(line:107);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(line:148);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(line:40);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(line:116);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(line:124);
+Template_1003$_run_closure1.doCall(line:9);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(line:66);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:149);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+groovy.lang.Closure.call(line:282);
+groovy.lang.Closure.call(line:277);
+org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(line:99);
+org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.access$300(line:61);
+org.codehaus.groovy.runtime.GroovyCategorySupport.use(line:239);
+org.codehaus.groovy.runtime.DefaultGroovyMethods.use(line:333);
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoMetaMethodSiteNoUnwrapNoCoerce.invoke(line:307);
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(line:51);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:153);
+Template_1003.run(line:2);
+jws.templates.GroovyTemplate.internalRender(line:230);
+jws.templates.GroovyTemplate$ExecutableTemplate.invokeTag(line:375);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:362);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(line:66);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:161);
+Template_1002$_run_closure1.doCall(line:10);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(line:66);
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(line:44);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:141);
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(line:149);
+sun.reflect.NativeMethodAccessorImpl.invoke(line:39);
+sun.reflect.DelegatingMethodAccessorImpl.invoke(line:25);
+java.lang.reflect.Method.invoke(line:597);
+org.codehaus.groovy.reflection.CachedMethod.invoke(line:90);
+groovy.lang.MetaMethod.doMethodInvoke(line:233);
+org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(line:273);
+groovy.lang.MetaClassImpl.invokeMethod(line:886);
+groovy.lang.Closure.call(line:282);
+groovy.lang.Closure.call(line:277);
+org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(line:99);
+
+[2016-01-13 17:01:38] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(29)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:01:41] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(30)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:01:44] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(31)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:01:47] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(32)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:01:50] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(33)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:01:53] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(34)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:01:56] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(35)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:01:59] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(36)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:02:02] ~ thread=(jws-thread-9)state=(RUNNABLE)autoTag=(37)
+controllers.WechatSupportController.getAT(line:88);
+
+[2016-01-13 17:02:20] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(43)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:02:23] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(44)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:02:26] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(45)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:02:29] ~ thread=(jws-thread-4)state=(RUNNABLE)autoTag=(46)
+controllers.WechatSupportController.getAT(line:87);
+
+[2016-01-13 17:05:33] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(13)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:43);
+controllers.WechatSupportController.getAT(line:78);
+
+[2016-01-13 17:05:51] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(19)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:63);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:52);
+controllers.WechatSupportController.getAT(line:78);
+
+[2016-01-13 17:05:54] ~ thread=(jws-thread-3)state=(RUNNABLE)autoTag=(20)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:63);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:52);
+controllers.WechatSupportController.getAT(line:78);
+
+[2016-01-13 17:06:14] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(21)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:72);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:52);
+controllers.WechatSupportController.getAT(line:78);
+
+[2016-01-13 17:09:47] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(1)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:35);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:86);
+
+[2016-01-13 17:09:50] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(2)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:86);
+
+[2016-01-13 17:09:53] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(3)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:65);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:86);
+
+[2016-01-13 17:09:56] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(4)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:72);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:86);
+
+[2016-01-13 17:09:59] ~ thread=(jws-thread-1)state=(RUNNABLE)autoTag=(5)
+io.github.elkan1788.mpsdk4j.util.ConfigReader.load(line:72);
+io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(line:39);
+io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(line:25);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(line:94);
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(line:139);
+controllers.WechatSupportController.getAT(line:86);
+
+[2016-01-13 20:50:35] ~ thread=(jws-thread-2)state=(RUNNABLE)autoTag=(174)
+io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(line:632);
+services.WechatSupportService.getAccessTokenByCode(line:46);
+controllers.WechatSupportController.getAccessTokenByCode(line:105);
+

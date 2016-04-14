@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<delete>
+    <!--删除新应用配置文件中内容
+    [注意]：该配置依赖replace.xml中的全量复制文件，其应用场景是：
+    1）将老版本中某个配置文件全量拷贝至新版本对应的配置文件中；
+    2）在新版本的配置文件中删除指定的值
+    -->
+    <!--针对key=value类型的properties配置文件-->
+    <properties>
+        <!--path:待修改的配置文件;
+                                说明:path:如不配置或为空，则忽略该配置 
+                                子节点说明：
+                name为将要删除的配置项的key值
+                                                如果对应的key不存在，则异常退出                            
+            -->
+        <!--
+            <item path="conf/app.properties">
+                <key name="msg.url"/>
+            </item>
+        -->
+    </properties>
+    
+    <!--针对xml类型的配置文件-->
+    <xmls>
+        <!--path:待修改的配置文件;
+                                说明:path:如不配置或为空，则忽略该配置 
+                               子节点说明：
+                    [说明]
+                    name:对应xml中节点路径dom4j的xPath表示，[]为对应的节点属性信息，例如client[@name='client0']，表示
+                      对应client节点的属性为:name='client0'节点
+                                   如不配置或空，则忽略该配置，该节点可为叶子节点也可不是叶子节点。
+             -->
+        <!--
+            <item path="conf/cache-server.xml">
+                <key name="/memcached/client[@name='client0']/servers"/>
+            </item>
+        -->
+    </xmls>
+</delete>

@@ -1,0 +1,364 @@
+[2016-01-13 10:58:27] ERROR ~ 
+
+@6omb2i1i9
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+ExceptionInInitializerError occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:67)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:39)
+	at io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(ApiResult.java:25)
+	... 9 more
+[2016-01-13 10:59:53] ERROR ~ 
+
+@6omb2i1ia
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 11:00:42] ERROR ~ 
+
+@6omb2i1ib
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 11:01:58] ERROR ~ 
+
+@6omb2i1ic
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 11:02:45] ERROR ~ 
+
+@6omb2i1id
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 15:27:55] ERROR ~ 
+
+@6omb2i1ie
+uc.rec action not found
+
+Action not found
+Action uc.rec could not be found. Error raised is Controller controllers.uc not found
+
+jws.exceptions.ActionNotFoundException: Action uc.rec not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.uc not found
+	... 3 more
+[2016-01-13 15:28:24] ERROR ~ 
+
+@6omb2i1if
+uc.rec action not found
+
+Action not found
+Action uc.rec could not be found. Error raised is Controller controllers.uc not found
+
+jws.exceptions.ActionNotFoundException: Action uc.rec not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.uc not found
+	... 3 more
+[2016-01-13 16:36:51] ERROR ~ Could not bind on port 9020
+[2016-01-13 16:37:52] ERROR ~ Failed to auto configure default logger context
+[2016-01-13 16:38:03] ERROR ~ 
+
+@6omcl7a81
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+ExceptionInInitializerError occured : null
+
+jws.exceptions.JavaExecutionException
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.ExceptionInInitializerError
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:61)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:55)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.load(ConfigReader.java:67)
+	at io.github.elkan1788.mpsdk4j.util.ConfigReader.<init>(ConfigReader.java:39)
+	at io.github.elkan1788.mpsdk4j.vo.ApiResult.<clinit>(ApiResult.java:25)
+	... 9 more
+[2016-01-13 16:38:57] ERROR ~ 
+
+@6omcl7a82
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:41:45] ERROR ~ 
+
+@6omcl7a83
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:42:56] ERROR ~ 
+
+@6omcl7a84
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:43:15] ERROR ~ 
+
+@6omcl7a85
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:43:24] ERROR ~ 
+
+@6omcl7a86
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:51:20] ERROR ~ 
+
+@6omcl7a87
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:51:36] ERROR ~ 
+
+@6omcl7a88
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:52:18] ERROR ~ 
+
+@6omcl7a89
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:52:45] ERROR ~ 
+
+@6omcl7a8a
+Internal Server Error (500) for request GET /WechatSupportController/getAT
+
+Execution exception (In /app/controllers/WechatSupportController.java around line 85)
+NoClassDefFoundError occured : Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+
+jws.exceptions.JavaExecutionException: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class io.github.elkan1788.mpsdk4j.vo.ApiResult
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.refreshAccessToken(WechatAPIImpl.java:94)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessToken(WechatAPIImpl.java:139)
+	at controllers.WechatSupportController.getAT(WechatSupportController.java:85)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+[2016-01-13 16:57:46] ERROR ~ Failed to auto configure default logger context
+[2016-01-13 17:05:02] ERROR ~ Failed to auto configure default logger context
+[2016-01-13 17:08:56] ERROR ~ Failed to auto configure default logger context
+[2016-01-13 17:09:52] ERROR ~ Failed to auto configure default logger context
+[2016-01-13 19:58:22] ERROR ~ Failed to auto configure default logger context

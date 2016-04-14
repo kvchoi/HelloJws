@@ -1,0 +1,213 @@
+[2016-01-14 10:03:58] ERROR ~ 
+
+@6omi2fp7b
+StoreDetailController.detail action not found
+
+Action not found
+Action StoreDetailController.detail could not be found. Error raised is Controller controllers.StoreDetailController not found
+
+jws.exceptions.ActionNotFoundException: Action StoreDetailController.detail not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.StoreDetailController not found
+	... 3 more
+[2016-01-14 17:58:49] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 17:58:49] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 17:58:49] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 17:58:51] ERROR ~ 
+
+@6omkcp05c
+Internal Server Error (500) for request GET /wx/getAccessTokenByCode?code=01104516cc3646b8eccbf3363b6b6bcy
+
+Execution exception (In /app/services/WechatSupportService.java around line 43)
+RuntimeException occured : io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+
+jws.exceptions.JavaExecutionException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:259)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:118)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	... 1 more
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kBBrAa0535ns32 ]"}
+	... 9 more
+[2016-01-14 17:58:56] ERROR ~ Failed to auto configure default logger context
+[2016-01-14 18:00:07] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:00:07] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:00:07] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:00:07] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: KvjQBA0613ns15 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: KvjQBA0613ns15 ]"}
+	... 9 more
+[2016-01-14 18:01:22] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:01:22] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:01:22] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:01:22] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: X1kLRa0688ns66 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: X1kLRa0688ns66 ]"}
+	... 9 more
+[2016-01-14 18:01:42] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:01:42] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:01:42] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:01:42] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: iRf7Ba0708ns68 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: iRf7Ba0708ns68 ]"}
+	... 9 more
+[2016-01-14 18:02:34] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:02:34] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:02:34] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:02:34] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: jdANuA0760ns53 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: jdANuA0760ns53 ]"}
+	... 9 more
+[2016-01-14 18:02:42] ERROR ~ Failed to auto configure default logger context
+[2016-01-14 18:03:48] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:03:48] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:03:48] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:04:00] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: CwuiAA0834ns46 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: CwuiAA0834ns46 ]"}
+	... 9 more
+[2016-01-14 18:07:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:07:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:07:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:07:56] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yB.EGA0082ns40 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yB.EGA0082ns40 ]"}
+	... 9 more
+[2016-01-14 18:08:15] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:08:15] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:08:15] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:08:15] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: QKiHWA0101ns13 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: QKiHWA0101ns13 ]"}
+	... 9 more
+[2016-01-14 18:08:44] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:08:45] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:08:45] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:08:45] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: _0130ns38 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: _0130ns38 ]"}
+	... 9 more
+[2016-01-14 18:08:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 0 items.
+[2016-01-14 18:08:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 1 items.
+[2016-01-14 18:08:56] ERROR ~ Get user oath access token by code[01104516cc3646b8eccbf3363b6b6bcy] failed. There try 2 items.
+[2016-01-14 18:08:56] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: k47aAa0142ns64 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.getAccessTokenByCode(WechatSupportController.java:121)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: k47aAa0142ns64 ]"}
+	... 9 more
+[2016-01-14 18:12:10] ERROR ~ Get user oath access token by code[021dc1897b8cb108674c6aaf98b4331T] failed. There try 0 items.
+[2016-01-14 18:12:10] ERROR ~ Get user oath access token by code[021dc1897b8cb108674c6aaf98b4331T] failed. There try 1 items.
+[2016-01-14 18:12:10] ERROR ~ Get user oath access token by code[021dc1897b8cb108674c6aaf98b4331T] failed. There try 2 items.
+[2016-01-14 18:12:10] ERROR ~ 500
+java.lang.RuntimeException: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: AiU3lA0336ns36 ]"}
+	at org.nutz.lang.Lang.wrapThrow(Lang.java:148)
+	at io.github.elkan1788.mpsdk4j.api.WechatAPIImpl.getAccessTokenByCode(WechatAPIImpl.java:665)
+	at services.WechatSupportService.getUserAccessToken(WechatSupportService.java:43)
+	at controllers.WechatSupportController.oauth(WechatSupportController.java:102)
+	at jws.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:597)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:550)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:526)
+	at jws.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:521)
+	at jws.mvc.ActionInvoker.invoke(ActionInvoker.java:192)
+	at Invocation.HTTP Request(JWS)
+Caused by: io.github.elkan1788.mpsdk4j.exception.WechatApiException: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: AiU3lA0336ns36 ]"}
+	... 9 more

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="views/**" kind="src" path="app"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/jws-1.5.5.1.jar" sourcepath="D:/workspace4/jws-1.5.5/framework/src"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/annotations-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/antisamy-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/antisamy-1.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/asm-4.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-css-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-css-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-ext-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-ext-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-util-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-util-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/cache-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/cglib-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-beanutils-core-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-beanutils-core-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-compiler-2.7.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-configuration-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-configuration-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-net-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/concurrentlinkedhashmap-lru-1.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/disruptor-3.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/druid-1.0.12.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/encoder-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/encoder-esapi-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/esapi-2.1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/esapi-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/geronimo-jms_1.1_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/guava-retrying-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-3.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-all-3.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-code-generator-3.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpmime-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-core-2.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-coreutils-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-databind-2.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-dataformat-xml-2.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-dataformat-yaml-2.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-module-jaxb-annotations-2.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jackson-module-jsonSchema-2.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/janino-2.7.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jansi-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/javax.mail-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/javax.persistence-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jboss-jms-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jopt-simple-4.6.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jruby-complete-1.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/json-schema-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/json-schema-validator-2.2.6.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jsr305-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/libphonenumber-6.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/logback-core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/lombok-1.16.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mailapi-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/metrics-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mpsdk4j-2.b.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mpsdk4j-2.b.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nekohtml-1.9.12.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nekohtml-1.9.16.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nutz-1.b.52.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/rhino-1.7R4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/sharding-jdbc-core-1.1.0.jar" sourcepath="C:/Users/Administrator/.sourceattacher/sharding-jdbc-core-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/spymemcached-2.11.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/woodstox-core-asl-4.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xalan-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xercesSamples-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xom-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/asm-all-3.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/async-http-client-1.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/bcprov-jdk15-1.45.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-javaflow-1209105.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/ehcache-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/fastdfs_client_v1.21.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/fastjson-1.2.7.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/geronimo-servlet_2.5_spec-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/groovy-all-1.7.10.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/h2-1.3.149.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/hessian-4.0.37.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/ivy-2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jackson-annotations-2.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jackson-core-2.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jackson-databind-2.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jamon-2.7.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/japid-0.8.10.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/javaparser-1.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/javax.inject-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jaxen-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jj-imaging.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jj-simplecaptcha.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jj-textile.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jj-wikitext.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/joda-time-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jregex-1.2_01.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jsr107cache-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/log4j-1.2.16.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://logging.apache.org/log4j/1.2/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/mail-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/mysql-connector-java-5.1.35.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/netty-3.9.3.Final.jar" sourcepath="C:/Users/Administrator/.sourceattacher/netty-3.9.3.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/netty-all-4.0.28.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/okhttp-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/okio-1.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/org.eclipse.jdt.core-3.7.1.v_B76_R37x.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/oval-1.50.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/postgresql-9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/retrofit-1.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/signpost-core-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/snakeyaml-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/spymemcached-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/tmdsdk-0.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/xstream-1.3.jar"/>
+	<classpathentry kind="output" path="eclipse/classes"/>
+</classpath>

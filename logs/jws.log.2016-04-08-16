@@ -1,0 +1,563 @@
+[2016-04-08 16:00:44] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-04-08 16:00:44] INFO ~ Starting D:\workspace6\HelloJws
+[2016-04-08 16:00:44] INFO ~ Java version: 1.6.0_43
+[2016-04-08 16:00:44] INFO ~ Jws version: 1.5.5.1
+[2016-04-08 16:00:44] INFO ~ Jws version pack-time: 2015-12-12 15:21:22
+[2016-04-08 16:00:44] INFO ~ Host name: cairf
+[2016-04-08 16:00:44] INFO ~ Read jws.plugins from jar:file:/D:/Program%20Files%20(x86)/jws-1.5.5.1/framework/jws-1.5.5.1.jar!/jws.plugins
+[2016-04-08 16:00:44] INFO ~ Read jws.plugins from file:/D:/Program%20Files%20(x86)/jws-1.5.5.1/modules/docviewer/app/jws.plugins
+[2016-04-08 16:00:44] INFO ~ Read jws.plugins from file:/D:/workspace6/HelloJws/conf/jws.plugins
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.CorePlugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.data.parsing.TempFilePlugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.data.validation.ValidationPlugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.db.DBPlugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.db.Evolutions
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.i18n.MessagesPlugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.libs.WS
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.tmd.TMD4Plugin
+[2016-04-08 16:00:44] INFO ~ Loaded plugin jws.plugins.ConfigurablePluginDisablingPlugin
+[2016-04-08 16:00:45] INFO ~ Loaded plugin DocViewerPlugin
+[2016-04-08 16:00:45] ERROR ~ Cannot load file:/D:/workspace6/HelloJws/conf/jws.plugins
+java.lang.NumberFormatException: For input string: "#10000"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at jws.plugins.PluginCollection.loadPlugins(PluginCollection.java:109)
+	at jws.Jws.init(Jws.java:377)
+	at jws.server.Server.main(Server.java:358)
+[2016-04-08 16:00:45] INFO ~ Precompiling ...
+[2016-04-08 16:00:48] ERROR ~ Cannot start in PROD mode with errors
+java.lang.IncompatibleClassChangeError: Implementing class
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at jws.classloading.enhancers.ContinuationEnhancer.enhanceThisClass(ContinuationEnhancer.java:74)
+	at jws.CorePlugin.enhance(CorePlugin.java:295)
+	at jws.plugins.PluginCollection.enhance(PluginCollection.java:418)
+	at jws.classloading.ApplicationClasses$ApplicationClass.enhance(ApplicationClasses.java:209)
+	at jws.classloading.ApplicationClassloader.loadApplicationClass(ApplicationClassloader.java:182)
+	at jws.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:493)
+	at jws.Jws.preCompile(Jws.java:959)
+	at jws.Jws.init(Jws.java:382)
+	at jws.server.Server.main(Server.java:358)
+[2016-04-08 16:20:12] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-04-08 16:20:14] ERROR ~ Cannot load file:/D:/workspace6/HelloJws/conf/jws.plugins
+java.lang.NumberFormatException: For input string: "#10000"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at jws.plugins.PluginCollection.loadPlugins(PluginCollection.java:109)
+	at jws.Jws.init(Jws.java:377)
+	at jws.server.Server.main(Server.java:358)
+[2016-04-08 16:20:14] WARN ~ You're running JWS in DEV mode
+[2016-04-08 16:20:59] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-04-08 16:21:01] ERROR ~ Cannot load file:/D:/workspace6/HelloJws/conf/jws.plugins
+java.lang.NumberFormatException: For input string: "#10000"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at jws.plugins.PluginCollection.loadPlugins(PluginCollection.java:109)
+	at jws.Jws.init(Jws.java:377)
+	at jws.server.Server.main(Server.java:358)
+[2016-04-08 16:21:01] WARN ~ You're running JWS in DEV mode
+[2016-04-08 16:21:20] ERROR ~ Failed to auto configure default logger context
+[2016-04-08 16:21:43] INFO ~ Parsing file:D:\workspace6\HelloJws/conf/define.conf
+[2016-04-08 16:21:44] WARN ~ You're running JWS in DEV mode
+[2016-04-08 16:21:48] WARN ~ unhandle exception from [(uri=/direct), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.RuntimeException: GET  failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:53)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:43)
+	... 2 more
+[2016-04-08 16:21:54] ERROR ~ 
+
+@6pke327p6
+Internal Server Error (500) for request GET /direct
+
+Oops: RuntimeException
+An unexpected error occured caused by exception RuntimeException: GET  failure
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.RuntimeException: GET  failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:53)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:43)
+	... 2 more
+[2016-04-08 16:21:58] WARN ~ unhandle exception from [(uri=/direct), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.RuntimeException: GET  failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:53)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	at Invocation.Message Received(JWS)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:43)
+	... 2 more
+[2016-04-08 16:21:58] ERROR ~ 
+
+@6pke327p7
+Internal Server Error (500) for request GET /direct
+
+Oops: RuntimeException
+An unexpected error occured caused by exception RuntimeException: GET  failure
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.RuntimeException: GET  failure
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:53)
+	at jws.plugins.PluginCollection.rawInvocation(PluginCollection.java:514)
+	... 1 more
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at extend.jws.ForwardPlugin.rawInvocation(ForwardPlugin.java:43)
+	... 2 more
+[2016-04-08 16:22:12] ERROR ~ Failed to auto configure default logger context
+[2016-04-08 16:23:59] ERROR ~ 
+
+@6pke327p8
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 16:23:59] ERROR ~ 
+
+@6pke327p9
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 16:23:59] ERROR ~ 
+
+@6pke327pa
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 16:24:13] ERROR ~ 
+
+@6pke327pb
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 16:24:16] ERROR ~ 
+
+@6pke327pc
+css.content.css action not found
+
+Action not found
+Action css.content.css could not be found. Error raised is Controller controllers.css.content not found
+
+jws.exceptions.ActionNotFoundException: Action css.content.css not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.css.content not found
+	... 3 more
+[2016-04-08 16:24:16] ERROR ~ 
+
+@6pke327pd
+js.jquery-1.4.2.min.js action not found
+
+Action not found
+Action js.jquery-1.4.2.min.js could not be found. Error raised is Controller controllers.js.jquery-1.4.2.min not found
+
+jws.exceptions.ActionNotFoundException: Action js.jquery-1.4.2.min.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.jquery-1.4.2.min not found
+	... 3 more
+[2016-04-08 16:24:16] ERROR ~ 
+
+@6pke327pe
+js.swapImg_openLayer.js action not found
+
+Action not found
+Action js.swapImg_openLayer.js could not be found. Error raised is Controller controllers.js.swapImg_openLayer not found
+
+jws.exceptions.ActionNotFoundException: Action js.swapImg_openLayer.js not found
+	at jws.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:639)
+	at jws.mvc.ActionInvoker.resolve(ActionInvoker.java:91)
+	at Invocation.HTTP Request(JWS)
+Caused by: java.lang.Exception: Controller controllers.js.swapImg_openLayer not found
+	... 3 more
+[2016-04-08 16:41:44] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:41:44] ERROR ~ 
+
+@6pke327pf
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	... 1 more
+[2016-04-08 16:42:16] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:42:16] ERROR ~ 
+
+@6pke327pg
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	... 1 more
+[2016-04-08 16:44:53] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:44:53] ERROR ~ 
+
+@6pke327ph
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: NullPointerException
+An unexpected error occured caused by exception NullPointerException: null
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.NullPointerException
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.hash(DefaultHttpHeaders.java:60)
+	at org.jboss.netty.handler.codec.http.DefaultHttpHeaders.set(DefaultHttpHeaders.java:232)
+	at jws.server.JwsHandler.addToResponse(JwsHandler.java:515)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:597)
+	... 1 more
+[2016-04-08 16:45:36] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:45:36] ERROR ~ 
+
+@6pke327pi
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:45:45] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:45:45] ERROR ~ 
+
+@6pke327pj
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:46:46] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:46:46] ERROR ~ 
+
+@6pke327pk
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:49:13] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:49:13] ERROR ~ 
+
+@6pke327pl
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:50:02] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:50:02] ERROR ~ 
+
+@6pke327pm
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:51:08] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:51:08] ERROR ~ 
+
+@6pke327pn
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:53:42] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:53:42] ERROR ~ 
+
+@6pke327po
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:54:38] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:54:38] ERROR ~ 
+
+@6pke327pp
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:54:56] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:54:56] ERROR ~ 
+
+@6pke32800
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:55:00] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:55:00] ERROR ~ 
+
+@6pke32801
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
+[2016-04-08 16:55:23] WARN ~ unhandle exception from [(uri=/direct?http%3A%2F%2Fwww.csdn.net), (ip=127.0.0.1), (ua=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11466.7 Safari/537.36)]
+java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	at Invocation.Message Received(JWS)
+[2016-04-08 16:55:23] ERROR ~ 
+
+@6pke32802
+Internal Server Error (500) for request GET /direct?http%3A%2F%2Fwww.csdn.net
+
+Oops: IllegalArgumentException
+An unexpected error occured caused by exception IllegalArgumentException: non-empty content disallowed if this.chunked == true
+
+jws.exceptions.UnexpectedException: Unexpected Error
+	at jws.server.JwsHandler.serve500(JwsHandler.java:989)
+	at Invocation.Message Received(JWS)
+Caused by: java.lang.IllegalArgumentException: non-empty content disallowed if this.chunked == true
+	at org.jboss.netty.handler.codec.http.DefaultHttpMessage.setContent(DefaultHttpMessage.java:92)
+	at jws.server.JwsHandler.writeResponse(JwsHandler.java:555)
+	at jws.server.JwsHandler.copyResponse(JwsHandler.java:717)
+	... 1 more
