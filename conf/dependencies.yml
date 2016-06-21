@@ -22,3 +22,10 @@ require:
     - com.googlecode.concurrentlinkedhashmap -> concurrentlinkedhashmap-lru 1.4.2
     - com.hazelcast -> hazelcast 3.5.4
     - com.dangdang -> sharding-jdbc-core 1.1.0
+    - com.jayway.jsonpath -> json-path 2.2.0:
+        exclude:
+              - org.slf4j -> *
+              - org.json -> *
+              - com.fasterxml.jackson.core -> *
+              - net.minidev -> *
+              - org.apache.tapestry -> *
