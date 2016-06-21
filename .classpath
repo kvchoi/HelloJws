@@ -3,29 +3,14 @@
 	<classpathentry excluding="views/**" kind="src" path="app"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/jws-1.5.5.1.jar" sourcepath="D:/workspace4/jws-1.5.5/framework/src"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/jws-1.5.5.1.jar" sourcepath="D:/program files (x86)/jws-1.5.5.1/framework/src"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/annotations-1.3.2.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/antisamy-1.4.3.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/antisamy-1.5.3.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/asm-4.2.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-css-1.7.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-css-1.8.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-ext-1.7.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-ext-1.8.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-util-1.7.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/batik-util-1.8.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/bsh-core-2.0b4.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/btf-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/cache-api-1.0.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/cglib-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-beanutils-core-1.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-beanutils-core-1.8.3.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-compiler-2.7.8.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-configuration-1.10.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-configuration-1.5.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-digester-1.8.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-httpclient-3.1.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/commons-net-3.3.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/concurrentlinkedhashmap-lru-1.4.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/disruptor-3.3.2.jar"/>
@@ -33,11 +18,9 @@
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/encoder-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/encoder-esapi-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/esapi-2.1.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/esapi-2.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/geronimo-jms_1.1_spec-1.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/guava-retrying-2.0.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-3.5.4.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-all-3.2.5.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/hazelcast-code-generator-3.5.4.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpclient-4.5.1.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/httpclient-cache-4.5.1.jar"/>
@@ -58,6 +41,7 @@
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jboss-jms-api_1.1_spec-1.0.1.Final.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jopt-simple-4.6.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jruby-complete-1.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/json-path-2.2.0.jar" sourcepath="C:/Users/Administrator/.sourceattacher/json-path-2.2.0-sources.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/json-schema-core-1.2.5.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/json-schema-validator-2.2.6.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/jsoup-1.8.3.jar"/>
@@ -70,27 +54,21 @@
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mailapi-1.4.3.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/metrics-core-3.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mpsdk4j-2.b.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/mpsdk4j-2.b.2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/msg-simple-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nekohtml-1.9.12.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nekohtml-1.9.16.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/nutz-1.b.52.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/org.osgi.core-4.3.1.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/rhino-1.7R4.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/servlet-api-2.5.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/sharding-jdbc-core-1.1.0.jar" sourcepath="C:/Users/Administrator/.sourceattacher/sharding-jdbc-core-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/sharding-jdbc-core-1.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/spymemcached-2.11.4.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/stax-api-1.0-2.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/stax2-api-3.1.4.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/uri-template-0.9.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/woodstox-core-asl-4.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xalan-2.7.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xercesSamples-2.8.0.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-apis-ext-1.3.04.jar"/>
 	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xml-resolver-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/workspace6/HelloJws/lib/xom-1.2.5.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/activation-1.1.1.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/antlr-2.7.6.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/asm-all-3.3.1.jar"/>
@@ -145,7 +123,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/mail-1.4.3.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/mysql-connector-java-5.1.35.jar"/>
-	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/netty-3.9.3.Final.jar" sourcepath="C:/Users/Administrator/.sourceattacher/netty-3.9.3.Final-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/netty-3.9.3.Final.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/netty-all-4.0.28.Final.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/okhttp-2.5.0.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/okio-1.6.0.jar"/>
@@ -160,5 +138,6 @@
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/spymemcached-2.8.0.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/tmdsdk-0.1.2.jar"/>
 	<classpathentry kind="lib" path="D:/Program Files (x86)/jws-1.5.5.1/framework/lib/xstream-1.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mpsdk4j"/>
 	<classpathentry kind="output" path="eclipse/classes"/>
 </classpath>
